@@ -23,4 +23,4 @@ console.log('TRAPEZIO: ' + (((a+b)*c/2).toFixed(3)));
 console.log('QUADRADO: ' + (b*b).toFixed(3));
 console.log('RETANGULO: ' + ((a*b).toFixed(3)));
 
-//area
+//área
