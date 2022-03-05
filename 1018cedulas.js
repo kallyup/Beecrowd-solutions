@@ -1,7 +1,8 @@
 //Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.
-
-var ni = 11257
-var n = 11257
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+var ni = parseInt(lines.shift())
+var n = ni
 var n1= parseInt(n/100)
 n= n-(n1*100)
 var n2= parseInt(n/50)
