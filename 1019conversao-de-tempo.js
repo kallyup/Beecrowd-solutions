@@ -30,3 +30,5 @@ segundos=n;
 
 
 console.log(hora +':'+minuto+':'+segundos )*/
+
+//conversão horas minutos segudos
