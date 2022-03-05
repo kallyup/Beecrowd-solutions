@@ -11,3 +11,22 @@ n=n%60; //n=5
 let s = n;
 
 console.log(h+':'+ m + ':' + s)
+
+/* solução 2
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+
+var n = parseInt(lines.shift())
+let hora=0;
+let minuto=0;
+let segundos=0;
+
+hora=parseInt(n/3600);
+n=n-(hora*3600);
+minuto=parseInt(n/60);
+n=n-(minuto*60);
+segundos=n;
+
+
+console.log(hora +':'+minuto+':'+segundos )*/
